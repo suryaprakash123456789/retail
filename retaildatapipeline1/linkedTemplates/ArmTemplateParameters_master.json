@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "retaildatapipeline1"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"ls_azure_sqldatabase_password": {
+			"value": ""
+		},
+		"ls_azuresql_blobstorage_connectionString": {
+			"value": ""
+		},
+		"ls_blobtosqlserver_connectionString": {
+			"value": ""
+		},
+		"ls_deleteactivity_retaildata_connectionString": {
+			"value": ""
+		},
+		"ls_deleteactivityretaildata1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "retailjan2025server.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "retaildatajan2025"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Edukron"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "retailjan2025server.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "retaildatajan2025"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "Edukron"
+		},
+		"ls_azure_sqldatabase_properties_typeProperties_server": {
+			"value": "retailjan2025server.database.windows.net"
+		},
+		"ls_azure_sqldatabase_properties_typeProperties_database": {
+			"value": "retaildatajan2025"
+		},
+		"ls_azure_sqldatabase_properties_typeProperties_userName": {
+			"value": "Edukron"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

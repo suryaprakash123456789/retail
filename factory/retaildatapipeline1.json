@@ -1,0 +1,9 @@
+{
+	"name": "retaildatapipeline1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "574370cf-363a-471a-861f-9ba03923a7fb",
+		"tenantId": "8eed6ccd-7a3e-4c9e-8344-66f2f073a980"
+	}
+}

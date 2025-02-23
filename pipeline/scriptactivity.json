@@ -22,7 +22,7 @@
 					"scripts": [
 						{
 							"type": "Query",
-							"text": "\nALTER procedure addnewcolll(@newcolllTile Declare @newIDfromProc INT\nEXECUTE addnewcolll @newcolllTile='surya', @newcolllAuthor='praksh',@newcolllGenre='hbdwnj',@newcolllID=@newIDfromProc OUTPUT"
+							"text": "\nDECLARE @newIDfromProc INT\nEXECUTE addnewcolll @newcolllTile='surya', @newcolllAuthor='praksh',@newcolllGenre='hbdwnj',@newcolllID=@newIDfromProc OUTPUT"
 						}
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"

@@ -22,7 +22,7 @@
 					"scripts": [
 						{
 							"type": "Query",
-							"text": "\nALTER procedure addnewcolll(@newcolllTile varchar(25),@newcolllAuthor varchar(30),@newcolllGenre varchar(30),@newcolllID INT OUTPUT)\nAs \nINSERT INTO colll(ColllTitle,Author,Genre)\nValues\n(@newcolllTile,@newcolllAuthor,@newcolllGenre)\n\nSET @newcolllID = SCOPE_IDENTITY()\n\nSET @newcolllID = scope_identity\n\n"
+							"text": "\nALTER procedure addnewcolll(@newcolllTile varchar(25),@newcolllAuthor varchar(30),@newcolllGenre varchar(30),@newcolllID INT OUTPUT)\nAs \nINSERT INTO colll(ColllTitle,Author,Genre)\nValues\n(@newcolllTile,@newcolllAuthor,@newcolllGenre)\n\nSET @newcolllID = SCOPE_IDENTITY()\n\nSET @newcolllID = scope_identity( ) \n\n"
 						}
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"

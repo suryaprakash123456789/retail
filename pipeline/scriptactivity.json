@@ -21,7 +21,8 @@
 				"typeProperties": {
 					"scripts": [
 						{
-							"type": "Query"
+							"type": "Query",
+							"text": "\n\n\nCREATE TABLE Colll\n(\nColllID  INT PRIMARY KEY IDENTITY,\nColllTitle VARCHAR(25),\nAuthor VARCHAR(25),\nGenre VARCHAR(25),\n)\n"
 						}
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"

@@ -22,7 +22,7 @@
 					"scripts": [
 						{
 							"type": "Query",
-							"text": "\nALTER TABLE Colll\nADD Price INT\n\n"
+							"text": "\nCreate procedure addnewcolll(@newcolllTile varchar(25),@newcolllAuthor varchar(30),@newcolllGenre varchar(30))\nAs \nINSERT INTO colll(ColllTitle,Author,Genre)\nValues\n(@newcolllTile,@newcolllAuthor,@newcolllGenre)\n\n"
 						}
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"

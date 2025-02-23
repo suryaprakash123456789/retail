@@ -22,7 +22,7 @@
 					"scripts": [
 						{
 							"type": "Query",
-							"text": "UPDATE Colll SET Author = 'flight' WHERE ColllID = 1;\n\n"
+							"text": "\nALTER TABLE Colll\nADD Price INT\n\n"
 						}
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"

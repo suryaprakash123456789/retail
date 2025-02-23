@@ -22,7 +22,7 @@
 					"scripts": [
 						{
 							"type": "Query",
-							"text": "\n\n\nCREATE TABLE Colll\n(\nColllID  INT PRIMARY KEY IDENTITY,\nColllTitle VARCHAR(25),\nAuthor VARCHAR(25),\nGenre VARCHAR(25),\n)\n"
+							"text": "\n\nINSERT INTO Colll(ColllTitle,Author,Genre )\nVALUES\n('22','son','prk')\n\nCREATE TABLE Colll\n(\nColllID  INT PRIMARY KEY IDENTITY,\nColllTitle VARCHAR(25),\nAuthor VARCHAR(25),\nGenre VARCHAR(25),\n)\n"
 						}
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"
